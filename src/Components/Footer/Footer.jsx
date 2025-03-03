@@ -1,5 +1,7 @@
 import React from "react";
 import { Container } from "../index";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { NavLink } from "react-router-dom";
 
 function Footer() {
   return (
@@ -8,7 +10,7 @@ function Footer() {
         <Container>
           {/* Upper div for email etc */}
           <div className="flex sm:flex-row flex-col gap-2 py-5">
-            {/* left & top div */}
+            {/* left & top div */}    
             <div className="sm:w-5/12">
               <h2 className="text-2xl font-semibold">
                 Get our latest news and special sales
@@ -42,7 +44,7 @@ function Footer() {
           <Container>
             <div className="flex flex-col gap-5 ">
               {/* Upper div */}
-              <div className="items-center flex sm:flex-row flex-col justify-around gap-5">
+              <div className="md:items-start flex sm:flex-row flex-col justify-around  gap-5">
                 <div className="items-center flex flex-col">
                   <h3 className="text-lg font-bold py-4">YOUR ACCOUNT</h3>
                   <p className="text-gray-400 font-medium">Personal Info</p>
@@ -84,13 +86,29 @@ function Footer() {
               </div>
 
               {/* Lower div */}
-              <div className="border px-10">
-                <div>&#169; 2025 Powered by Shopify</div>
+              <div className=" pt-5 flex justify-between">
+                <div className="text-sm text-slate-400 font-medium">
+                  &#169; 2025 Powered by Shopify
+                </div>
 
-                <div>Credit cards etc images</div>
+                {/* <div>Credit cards etc images</div> */}
 
-                <div>
+                <div className="flex w-[30%] sm:w-[10%] justify-between  items-center float-right">
+                  <NavLink to={"https://www.facebook.com/"} target="_blank">
+                    <FontAwesomeIcon icon="fa-brands fa-facebook-f" />
+                  </NavLink>
 
+                  <NavLink to={"https://x.com/"} target="_blank">
+                    <FontAwesomeIcon icon="fa-brands fa-x-twitter" />
+                  </NavLink>
+
+                  <NavLink to={"https://www.instagram.com/"} target="_blank">
+                    <FontAwesomeIcon icon="fa-brands fa-instagram" />
+                  </NavLink>
+
+                  <NavLink to={"https://www.youtube.com/"} target="_blank">
+                    <FontAwesomeIcon icon="fa-brands fa-youtube" />
+                  </NavLink>
                 </div>
               </div>
             </div>

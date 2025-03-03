@@ -3,7 +3,7 @@ import React from "react";
 function Clearance() {
   return (
     <>
-      <div>Clearnance</div>
+      <div>Clearance</div>
     </>
   );
 }

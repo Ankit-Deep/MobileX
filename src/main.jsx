@@ -16,6 +16,10 @@ import {
   Clearance,
   SectionsAll,
   ContactUs,
+  Wishlist,
+  Account,
+  Cart,
+  // Wishlist
 } from "./Components/index.js";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
@@ -42,13 +46,26 @@ const router = createBrowserRouter([
         element: <Clearance />,
       },
       {
-        path: "/sections-all",
+        path: "/sectionsall",
         element: <SectionsAll />,
       },
       {
-        path: "/contact-us",
+        path: "/contactus",
         element: <ContactUs />,
       },
+      {
+        path: "/wishlist",
+        element: <Wishlist />,
+      },
+      {
+        path: "/account",
+        element: <Account />,
+      },
+      {
+        path: "/cart",
+        element: <Cart />,
+      },
+      
     ],
   },
 ]);
