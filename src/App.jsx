@@ -1,11 +1,23 @@
 import React, { useState } from "react";
-// import './App.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Container, Header, Navbar, Footer } from "./Components";
+import { Outlet } from "react-router-dom";
 
 function App() {
   return (
     <>
-      <div></div>
+      <div className="flex flex-col h-screen justify-between">
+        <div>
+          <Header />
+          <Navbar />
+        </div>
+
+        <main className=" h-full">
+          <Outlet />
+        </main>
+
+        <Footer />
+      </div>
     </>
   );
 }
