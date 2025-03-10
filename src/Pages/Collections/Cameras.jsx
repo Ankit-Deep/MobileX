@@ -7,43 +7,43 @@ function Cameras() {
     {
       name : "Product Name",
       price : "$250.00",
-      image : "../../../public/assets/2_smartphones-removebg-preview.png"
+      image : "/assets/2_smartphones-removebg-preview.png"
     },
     
     {
       name : "Product Name",
       price : "$250.00",
-      image : "../../../public/assets/2_smartphones-removebg-preview.png"
+      image : "/assets/2_smartphones-removebg-preview.png"
     },
     {
       name : "Product Name",
       price : "$250.00",
-      image : "../../../public/assets/2_smartphones-removebg-preview.png"
+      image : "/assets/2_smartphones-removebg-preview.png"
     },
     {
       name : "Product Name",
       price : "$250.00",
-      image : "../../../public/assets/2_smartphones-removebg-preview.png"
+      image : "/assets/2_smartphones-removebg-preview.png"
     },
     {
       name : "Product Name",
       price : "$250.00",
-      image : "../../../public/assets/2_smartphones-removebg-preview.png"
+      image : "/assets/2_smartphones-removebg-preview.png"
     },
     {
       name : "Product Name",
       price : "$250.00",
-      image : "../../../public/assets/2_smartphones-removebg-preview.png"
+      image : "/assets/2_smartphones-removebg-preview.png"
     },
     {
       name : "Product Name",
       price : "$250.00",
-      image : "../../../public/assets/2_smartphones-removebg-preview.png"
+      image : "/assets/2_smartphones-removebg-preview.png"
     },
     {
       name : "Product Name",
       price : "$250.00",
-      image : "../../../public/assets/2_smartphones-removebg-preview.png"
+      image : "/assets/2_smartphones-removebg-preview.png"
     },
 
   ]
