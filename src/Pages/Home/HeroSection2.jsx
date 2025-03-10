@@ -95,7 +95,7 @@ function HeroSection2() {
         {/* Tab Image */}
         <div className="w-full md:w-1/2 flex items-center justify-center px-4 md:px-6">
           <img
-            src="public/assets/tab.png"
+            src="/assets/tab.png"
             alt="High-quality image of the latest trend tablet"
             className="w-full h-auto max-w-xs md:max-w-md lg:max-w-lg object-contain"
           />
