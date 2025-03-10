@@ -95,7 +95,7 @@ function BestSellers() {
         <div className="w-full overflow-x-hidden scrollbar-hide scroll-smooth">
           <div
             ref={scrollRef}
-            className="flex gap-10 w-full overflow-x-auto sm:overflow-x-hidden scrollbar-hide scroll-smooth"
+            className="flex gap-10 w-full overflow-x-auto md:overflow-x-hidden scrollbar-hide scroll-smooth"
             style={{ scrollBehavior: "smooth" }}
           >
             {products.map((product) => (
