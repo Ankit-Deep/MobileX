@@ -8,11 +8,10 @@ function App() {
     <>
       <div className="flex flex-col h-screen justify-between">
         <div>
-          <Header />
           <Navbar />
         </div>
 
-        <main className=" h-full">
+        <main className="">
           <Outlet />
         </main>
 
