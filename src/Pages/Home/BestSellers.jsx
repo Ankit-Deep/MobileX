@@ -218,7 +218,7 @@ function BestSellers() {
 
             <div className="w-6/12">
               <img
-                src="../../../public/assets/smartwatch-removebg-preview.png"
+                src="/assets/smartwatch-removebg-preview.png"
                 alt=""
               />
             </div>

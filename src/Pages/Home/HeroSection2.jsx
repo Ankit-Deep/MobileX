@@ -6,15 +6,12 @@ function HeroSection2() {
   return (
     <>
       <section
-        className=" flex flex-col md:flex-row items-center justify-center w-full bg-gray-100"
+        className=" flex flex-col md:flex-row items-center justify-center w-full h-fit bg-[#F1F5FE] "
         aria-label="Hero section featuring Mac Desktops, big sale on smartphones, and computers"
       >
         {/* Left Section (Mac Desktops) */}
-        <div className="w-full md:w-1/3 flex flex-col items-center gap-4 px-2 md:px-4 py-4">
-          <div
-            className="border w-full flex flex-col gap-2 
-        text-center "
-          >
+        <div className="  w-full md:w-1/3 flex flex-col items-center gap-36 px-2 md:px-4 py-4">
+          <div className=" w-full flex flex-col justify-start gap-2  pl-10">
             <h2 className="text-2xl md:text-4xl lg:text-5xl text-gray-800 font-bold">
               Mac Desktops
             </h2>
@@ -39,7 +36,7 @@ function HeroSection2() {
         </div>
 
         {/* Middle Section (Big Sale) */}
-        <div className="w-full md:w-1/3 bg-[#495BD8] flex flex-col items-center gap-2 text-white py-4 md:py-6 px-2 md:px-4">
+        <div className="w-full md:w-1/3 bg-[#495BD8] flex flex-col items-center gap-3 text-white py-4 md:py-6 px-2 md:px-4">
           <h3 className="text-lg md:text-2xl font-bold">Up to 30%</h3>
           <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold">
             BIG SALE
@@ -63,7 +60,7 @@ function HeroSection2() {
 
         {/* Right Section (Computers) */}
         <div className="w-full md:w-1/3 flex flex-col items-center gap-4 px-2 md:px-4 py-4 md:py-6">
-          <div className="w-full flex flex-col gap-2 text-center">
+          <div className="w-full flex flex-col gap-2 justify-center pl-10">
             <h2 className="text-2xl md:text-4xl lg:text-5xl text-gray-800 font-bold">
               Computers
             </h2>
@@ -77,11 +74,11 @@ function HeroSection2() {
               <FontAwesomeIcon icon={faArrowRight} />
             </button>
           </div>
-          <div className="w-full flex items-center justify-center">
+          <div className="w-full flex items-center justify-center ">
             <img
-              src="/assets/cpu img.jpg"
+              src="/assets/cpu_img-removebg-preview.png"
               alt="Featured computer CPU in our limited time offer"
-              className="w-full h-auto max-w-xs md:max-w-sm object-contain"
+              className=" w-full h-auto max-w-xs md:max-w-sm object-contain"
             />
           </div>
         </div>
@@ -122,8 +119,6 @@ function HeroSection2() {
           </div>
         </div>
       </section>
-
-
     </>
   );
 }
