@@ -12,6 +12,17 @@ import Wishlist from "../Pages/Wishlist/Wishlist";
 import Account from "../Pages/Account/Account";
 import Cart from "../Pages/Cart/Cart";
 import Logo from "./Logo";
+import Cameras from "../Pages/Collections/Cameras";
+import Accessories from "../Pages/Collections/Accessories";
+import BestSellers from "../Pages/Home/BestSellers";
+import ComingSoon from "../Pages/Collections/ComingSoon";
+import Computing from "../Pages/Collections/Computing";
+import New from "../Pages/Collections/New";
+import Sale from "../Pages/Collections/Sale";
+import TV from "../Pages/Collections/TV";
+import Mobile from "../Pages/Collections/Mobile";
+import Laptops from "../Pages/Collections/Laptops";
+import CollectionComp from "../Pages/Collections/CollectionComp";
 
 export {
   Header,
@@ -28,4 +39,15 @@ export {
   Wishlist,
   Account,
   Cart,
+  Cameras,
+  Accessories,
+  BestSellers,
+  ComingSoon,
+  Computing,
+  New,
+  Sale,
+  TV,
+  Mobile,
+  Laptops,
+  CollectionComp
 };

@@ -16,13 +16,24 @@ import {
   Clearance,
   SectionsAll,
   ContactUs,
-  Wishlist,
   Account,
   Cart,
-  // Wishlist
+  Wishlist,
+  Cameras,
+  Accessories,
+  BestSellers,
+  ComingSoon,
+  Computing,
+  New,
+  Sale,
+  TV,
+  Mobile,
+  Laptops,
+  CollectionComp,
 } from "./Components/index.js";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { Tv } from "lucide-react";
 
 const router = createBrowserRouter([
   {
@@ -41,16 +52,60 @@ const router = createBrowserRouter([
         path: "/collections",
         element: <Collections />,
       },
+      // {
+      //   path: "/collections/:collectionComp",
+      //   element: <CollectionComp/>
+      // },
+      {
+        path: "/collections/cameras-photography",
+        element: <Cameras />,
+      },
+      {
+        path: "/collections/accessories",
+        element: <Accessories />,
+      },
+      {
+        path: "/collections/bestsellers",
+        element: <BestSellers />,
+      },
+      {
+        path: "/collections/coming-soon",
+        element: <ComingSoon />,
+      },
+      {
+        path: "/collections/computing",
+        element: <Computing />,
+      },
+      {
+        path: "/collections/new",
+        element: <New />,
+      },
+      {
+        path: "/collections/sale",
+        element: <Sale />,
+      },
+      {
+        path: "/collections/tv-video",
+        element: <TV />,
+      },
+      {
+        path: "/collections/mobile",
+        element: <Mobile />,
+      },
+      {
+        path: "/collections/laptops-computers",
+        element: <Laptops />,
+      },
       {
         path: "/clearance",
         element: <Clearance />,
       },
       {
-        path: "/sectionsall",
+        path: "/sections",
         element: <SectionsAll />,
       },
       {
-        path: "/contactus",
+        path: "/contact",
         element: <ContactUs />,
       },
       {
@@ -65,7 +120,6 @@ const router = createBrowserRouter([
         path: "/cart",
         element: <Cart />,
       },
-      
     ],
   },
 ]);
